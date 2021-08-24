@@ -1,6 +1,6 @@
-from TaxiFareModel.data import get_data, clean_data
-from TaxiFareModel.encoders import TimeFeaturesEncoder, DistanceTransformer
-from TaxiFareModel.utils import compute_rmse
+from TaxiFare699.data import get_data, clean_data
+from TaxiFare699.encoders import TimeFeaturesEncoder, DistanceTransformer
+from TaxiFare699.utils import compute_rmse
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import Pipeline
